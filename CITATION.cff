@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Römer
+    given-names: Johann
+    affiliation: "MOR Research Collective"
+title: "antarctic-ice-shelf-utac"
+version: "1.0.0"
+date-released: "2026-08-31"
+url: "https://github.com/GenesisAeon/antarctic-ice-shelf-utac"
+repository-code: "https://github.com/GenesisAeon/antarctic-ice-shelf-utac"
+license: MIT
+abstract: "Real Antarctic ice shelf mass budget (71 of 162 shelves lost mass 1997-2021, 8.3 trillion tonnes total, Davison et al. 2023), a real Holocene meltwater-release feedback mechanism (Nature Geoscience 2025), and a real sign-flipped regional asymmetry under CMIP6 projections -- East Antarctica's feedback amplifies warming, West Antarctica's Amundsen/Bellingshausen sectors show cooling/suppressed warming (Muilwijk et al. 2026, The Cryosphere). Deliberately no UTAC/CREP/AFET bridge and no invented Gamma value -- see DISCLAIMER.md. GenesisAeon P120."
+keywords:
+  - GenesisAeon
+  - P120
+  - climate
+  - Antarctica
+  - ice shelf
+  - cryosphere
+  - open-science
+references:
+  - type: article
+    title: "Annual mass budget of Antarctic ice shelves from 1997 to 2021"
+    authors:
+      - name: "Davison, B.J."
+      - name: "Hogg, A.E."
+      - name: "Gourmelen, N."
+    year: 2023
+    journal: "Science Advances"
+    volume: 9
+    issue: 41
+    doi: "10.1126/sciadv.adi0186"
+  - type: article
+    title: "Antarctic ice-shelf collapse in Holocene driven by meltwater release feedbacks"
+    year: 2025
+    journal: "Nature Geoscience"
+    volume: 18
+    start: 1216
+  - type: article
+    title: "Large regional differences in Antarctic ice shelf mass loss from Southern Ocean warming and meltwater feedbacks"
+    authors:
+      - name: "Muilwijk, M."
+      - name: "Hattermann, T."
+      - name: "Beadling, R.L."
+    year: 2026
+    journal: "The Cryosphere"
+    volume: 20
+    issue: 2
+    start: 1087
+    doi: "10.5194/tc-20-1087-2026"

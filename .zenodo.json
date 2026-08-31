@@ -1,0 +1,28 @@
+{
+  "title": "antarctic-ice-shelf-utac — P120: real Antarctic ice shelf mass loss, mechanism, and regional asymmetry",
+  "description": "<p>Real Antarctic ice shelf mass budget (71 of 162 shelves lost mass 1997-2021, 8.3 trillion tonnes total, DOI 10.1126/sciadv.adi0186), a real Holocene meltwater-release feedback mechanism (Nature Geoscience 2025), and a real sign-flipped regional asymmetry under CMIP6 projections -- East Antarctica's feedback amplifies warming, West Antarctica's Amundsen/Bellingshausen sectors show cooling/suppressed warming (Muilwijk et al. 2026, The Cryosphere, DOI 10.5194/tc-20-1087-2026). Deliberately no UTAC/CREP/AFET bridge and no invented Gamma value -- see DISCLAIMER.md. Part of the <strong>GenesisAeon</strong> ecosystem (P120, domain: climate / cryosphere).</p>",
+  "creators": [
+    {
+      "name": "Römer, Johann",
+      "affiliation": "Independent Researcher / MOR Research Collective"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "1.0.0",
+  "keywords": [
+    "GenesisAeon",
+    "P120",
+    "climate",
+    "Antarctica",
+    "ice shelf",
+    "cryosphere",
+    "open-science"
+  ],
+  "communities": [
+    {
+      "identifier": "genesisaeon"
+    }
+  ]
+}
