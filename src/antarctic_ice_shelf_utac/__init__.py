@@ -62,7 +62,7 @@ from .regional_asymmetry_cmip6 import (
     west_antarctic_regions,
 )
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 __all__ = [
     "DAVISON_2023_CITATION",

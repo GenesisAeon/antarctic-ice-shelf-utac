@@ -5,6 +5,9 @@ Holocene meltwater-release feedback mechanism, and a real, sign-flipped
 regional asymmetry under CMIP6 projections. **Deliberately has no
 UTAC/CREP/AFET bridge** — see [DISCLAIMER.md](DISCLAIMER.md).
 
+For a plain-language explanation of the same topic (German, no jargon,
+written for general audiences), see [WHITEPAPER.md](WHITEPAPER.md).
+
 ## Where this package came from
 
 Built alongside `el-nino-amplification-utac` (P118) and
