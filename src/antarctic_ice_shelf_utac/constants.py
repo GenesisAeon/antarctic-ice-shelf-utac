@@ -486,3 +486,24 @@ ENSO_TIMESCALE_ASYMMETRY_NOTE = (
     "contradiction of the package's core Davison 2023 finding -- the "
     "deliberate honesty-check nuance for this addition."
 )
+
+# =====================================================================
+# Live current-event context (added 2026-09-03, context only) -- WMO
+# =====================================================================
+# WMO press release (2026-09-03): a live, exceptionally strong El Nino
+# event, Nino 3.4 index +2.2 to +2.6C above average (late Jul-mid Aug
+# 2026), near-100% probability of persisting through February 2027,
+# peak expected end of 2026. Real-world example of the kind of strong
+# ENSO event the Paolo et al. 2018 (competing snowfall-gain vs.
+# ~5x-larger basal-melt-loss) and Ayabilah et al. 2026 (West Antarctica
+# SMB gain on ENSO timescales) mechanisms above concern -- but this
+# package has no post-2021 Antarctic mass-budget monitoring data, so
+# this event's actual effect on Antarctic ice mass is NOT claimed here.
+WMO_2026_CITATION = (
+    "WMO (2026-09-03), \"El Nino set to become very strong, raising "
+    "risks of extreme weather into 2027\", "
+    "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-"
+    "raising-risks-of-extreme-weather-2027"
+)
+WMO_2026_NINO34_ANOMALY_C_RANGE = (2.2, 2.6)
+WMO_2026_PEAK_EXPECTED = "end of 2026"

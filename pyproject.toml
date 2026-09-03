@@ -1,6 +1,6 @@
 [project]
 name = "antarctic-ice-shelf-utac"
-version = "2.0.0"
+version = "2.1.0"
 description = "Real Antarctic ice shelf mass budget (Davison et al. 2023), Holocene meltwater-feedback mechanism (Nature Geoscience 2025), CMIP6 regional East/West asymmetry (Muilwijk et al. 2026), plus six more real mechanisms (subglacial hydrology, Southern Annular Mode, sea-ice albedo feedback, seismic-ice interactions, black carbon deposition, ENSO teleconnection), no UTAC/CREP/AFET bridge"
 readme = "README.md"
 license = { text = "MIT" }

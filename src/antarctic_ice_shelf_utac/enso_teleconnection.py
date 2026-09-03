@@ -15,6 +15,9 @@ from .constants import (
     ENSO_CASCADE_NOTE,
     ENSO_TIMESCALE_ASYMMETRY_NOTE,
     PAOLO_2018_CITATION,
+    WMO_2026_CITATION,
+    WMO_2026_NINO34_ANOMALY_C_RANGE,
+    WMO_2026_PEAK_EXPECTED,
 )
 
 
@@ -67,3 +70,29 @@ AYABILAH_2026 = AYABILAH_2026_CITATION
 
 def enso_timescale_asymmetry_note() -> str:
     return ENSO_TIMESCALE_ASYMMETRY_NOTE
+
+
+@dataclass(frozen=True)
+class LiveEnsoEventContext:
+    """WMO's 2026-09-03 real-time monitoring of the current, exceptionally
+    strong El Nino event -- a real-world example of the magnitude this
+    module's mechanisms concern, not a claim about its actual effect on
+    Antarctic ice (no post-2021 mass-budget monitoring data exists here)."""
+
+    nino34_anomaly_c_range: tuple[float, float] = WMO_2026_NINO34_ANOMALY_C_RANGE
+    peak_expected: str = WMO_2026_PEAK_EXPECTED
+    citation: str = WMO_2026_CITATION
+
+
+CURRENT_EVENT = LiveEnsoEventContext()
+
+
+def is_current_events_antarctic_effect_confirmed() -> bool:
+    """Whether the live 2026 El Nino event's actual effect on Antarctic
+    ice mass has been confirmed by monitoring data.
+
+    Always False -- this package has no post-2021 Antarctic mass-budget
+    data. The live event is offered only as a current, real example of
+    an exceptionally strong ENSO event, not as a confirmed outcome.
+    """
+    return False

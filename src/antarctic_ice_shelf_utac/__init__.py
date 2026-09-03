@@ -68,11 +68,14 @@ from .constants import (
 from .enso_teleconnection import (
     AYABILAH_2026,
     COMPETING_EFFECTS,
+    CURRENT_EVENT,
     EnsoCompetingEffects,
+    LiveEnsoEventContext,
     does_el_nino_produce_net_ice_shelf_mass_gain,
     does_west_antarctica_gain_mass_during_el_nino_on_enso_timescales,
     enso_cascade_note,
     enso_timescale_asymmetry_note,
+    is_current_events_antarctic_effect_confirmed,
 )
 from .holocene_feedback_mechanism import (
     does_this_module_claim_current_active_cascade,
@@ -146,13 +149,14 @@ from .subglacial_hydrology import (
     subglacial_hydrology_note,
 )
 
-__version__ = "2.0.0"
+__version__ = "2.1.0"
 
 __all__ = [
     "AYABILAH_2026",
     "BALLENY_EARTHQUAKE",
     "COMPETING_EFFECTS",
     "CONCENTRATION",
+    "CURRENT_EVENT",
     "DAVISON_2023_CITATION",
     "DEBRIS_FLOW_EVIDENCE",
     "FEEDBACK",
@@ -172,6 +176,7 @@ __all__ = [
     "BlackCarbonConcentration",
     "DeglaciationDebrisFlowEvidence",
     "EnsoCompetingEffects",
+    "LiveEnsoEventContext",
     "SamBasalMeltResponse",
     "SeaIceAlbedoFeedback",
     "SeasonalBlackCarbonPattern",
@@ -203,6 +208,7 @@ __all__ = [
     "holocene_event_years_before_present",
     "is_antarctic_bc_comparable_in_magnitude_to_arctic",
     "is_antarctic_rockfall_trend_as_well_quantified_as_the_alps",
+    "is_current_events_antarctic_effect_confirmed",
     "is_east_antarctica_lake_count_higher",
     "is_exposed_rock_albedo_a_quantified_antarctic_mechanism",
     "is_icequake_recurrence_tidally_modulated",

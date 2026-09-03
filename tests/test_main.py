@@ -5,6 +5,7 @@ from antarctic_ice_shelf_utac import (
     BALLENY_EARTHQUAKE,
     COMPETING_EFFECTS,
     CONCENTRATION,
+    CURRENT_EVENT,
     DAVISON_2023_CITATION,
     DEBRIS_FLOW_EVIDENCE,
     FEEDBACK,
@@ -46,6 +47,7 @@ from antarctic_ice_shelf_utac import (
     holocene_event_years_before_present,
     is_antarctic_bc_comparable_in_magnitude_to_arctic,
     is_antarctic_rockfall_trend_as_well_quantified_as_the_alps,
+    is_current_events_antarctic_effect_confirmed,
     is_east_antarctica_lake_count_higher,
     is_exposed_rock_albedo_a_quantified_antarctic_mechanism,
     is_icequake_recurrence_tidally_modulated,
@@ -72,7 +74,7 @@ from antarctic_ice_shelf_utac import (
 
 
 def test_version() -> None:
-    assert __version__ == "2.0.0"
+    assert __version__ == "2.1.0"
 
 
 def test_package_id() -> None:
@@ -321,3 +323,10 @@ def test_west_antarctica_gains_mass_during_el_nino_short_term() -> None:
     assert does_west_antarctica_gain_mass_during_el_nino_on_enso_timescales() is True
     assert AYABILAH_2026["doi"] == "10.5194/tc-20-1237-2026"
     assert "not a contradiction" in enso_timescale_asymmetry_note()
+
+
+def test_current_event_context() -> None:
+    assert CURRENT_EVENT.nino34_anomaly_c_range == (2.2, 2.6)
+    assert CURRENT_EVENT.peak_expected == "end of 2026"
+    assert "wmo.int" in CURRENT_EVENT.citation
+    assert is_current_events_antarctic_effect_confirmed() is False
