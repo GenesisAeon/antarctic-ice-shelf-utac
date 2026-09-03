@@ -1,6 +1,6 @@
 {
   "title": "antarctic-ice-shelf-utac — P120: real Antarctic ice shelf mass loss, mechanism, and regional asymmetry",
-  "description": "<p>Real Antarctic ice shelf mass budget (71 of 162 shelves lost mass 1997-2021, 8.3 trillion tonnes total, DOI 10.1126/sciadv.adi0186), a real Holocene meltwater-release feedback mechanism (Nature Geoscience 2025), and a real sign-flipped regional asymmetry under CMIP6 projections -- East Antarctica's feedback amplifies warming, West Antarctica's Amundsen/Bellingshausen sectors show cooling/suppressed warming (Muilwijk et al. 2026, The Cryosphere, DOI 10.5194/tc-20-1087-2026). Deliberately no UTAC/CREP/AFET bridge and no invented Gamma value -- see DISCLAIMER.md. Part of the <strong>GenesisAeon</strong> ecosystem (P120, domain: climate / cryosphere).</p>",
+  "description": "<p>Real Antarctic ice shelf mass budget (71 of 162 shelves lost mass 1997-2021, 8.3 trillion tonnes total, DOI 10.1126/sciadv.adi0186), a real Holocene meltwater-release feedback mechanism (Nature Geoscience 2025), and a real sign-flipped regional asymmetry under CMIP6 projections -- East Antarctica's feedback amplifies warming, West Antarctica's Amundsen/Bellingshausen sectors show cooling/suppressed warming (Muilwijk et al. 2026, The Cryosphere, DOI 10.5194/tc-20-1087-2026). <strong>v2.0.0</strong> adds six more independently verified mechanisms: subglacial hydrology (85 newly detected active lakes, Wilson et al. 2025), the Southern Annular Mode -- where the Arctic &quot;vortex instability exports cold air&quot; analogy does NOT transfer (Lim et al. 2019, Verfaillie et al. 2022), sea-ice albedo feedback (Riihel&auml; et al. 2021), seismic-ice interactions (Wiens et al. 2008), black carbon deposition (Cordero et al. 2022, Magalh&atilde;es et al. 2024 -- distinct geography from P105's Tibetan Plateau focus), and ENSO teleconnection (Paolo et al. 2018, Ayabilah et al. 2026). Deliberately no UTAC/CREP/AFET bridge and no invented Gamma value -- see DISCLAIMER.md. Part of the <strong>GenesisAeon</strong> ecosystem (P120, domain: climate / cryosphere).</p>",
   "creators": [
     {
       "name": "Römer, Johann",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "upload_type": "software",
   "access_right": "open",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "keywords": [
     "GenesisAeon",
     "P120",

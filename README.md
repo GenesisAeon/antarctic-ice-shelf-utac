@@ -44,6 +44,54 @@ feedback always accelerates melting everywhere" reading of the
 Holocene mechanism documented alongside it. Both are real findings,
 kept explicit rather than smoothed into one narrative.
 
+## v2.0.0 (2026-09-03): six more real mechanisms
+
+Following a Johann brainstorm prompted by a coral-reef article, six
+independent research passes each verified a real, citable mechanism:
+
+- **Subglacial hydrology** — Wilson et al. (2025, *Nat. Commun.*): 85
+  newly detected active subglacial lakes (known inventory +58%), median
+  drainage 2.2yr / recharge 3.5yr, 6 within 8km of the grounding zone.
+  Dow et al. (2022, *Nat. Geosci.*): a 460km high-pressure subglacial
+  river system. Physically distinct from the ice-shelf basal melting
+  above — this is water beneath the *grounded* ice.
+- **Southern Annular Mode (SAM)** — the real Antarctic analog to the
+  Arctic polar vortex, but the "instability exports cold air" analogy
+  does **not** transfer: the 2019 vortex weakening produced hot, dry
+  conditions in Australia instead (Lim et al. 2019), a real contributor
+  to the Black Summer bushfires. SAM does drive real, regionally
+  asymmetric basal melt (+40 Gt/yr per +1 SD, opposite-signed in
+  Amundsen vs. Bellingshausen/W. Pacific — Verfaillie et al. 2022), and
+  SAM+ENSO are the two dominant decadal drivers of Antarctic ice-mass
+  variability (King et al. 2023).
+- **Sea-ice albedo feedback** — Riihelä et al. (2021, *Nat. Geosci.*):
+  a real, quantified feedback that flipped sign, from −0.06±0.02
+  W/m²/decade (1992-2015 expansion era) to +0.26 W/m² (2016-2018 sea-
+  ice-loss reversal). Explicitly **not** exposed-continental-rock
+  albedo — that mechanism was searched for and not found as a
+  quantified Antarctica-specific result; don't conflate the two.
+- **Seismic-ice interactions** — real, tidally-modulated basal
+  stick-slip icequakes on the Whillans Ice Plain (~20,000 events on
+  record, Wiens et al. 2008); permafrost-thaw debris flows documented
+  at Potter Peninsula since 1956, though without a quantified trend
+  like the (non-Antarctic) Alpine literature; the 1998 Balleny Islands
+  Mw8.1 earthquake, GIA-triggered — but GIA itself is a *stabilizing*
+  feedback on West Antarctic ice, not an amplifying one.
+- **Black carbon deposition** — a different geography from
+  `black-carbon-albedo-utac` (P105, Tibetan Plateau) — no overlap.
+  Cordero et al. (2022, *Nat. Commun.*): local station/tourism
+  emissions dominate on average. Magalhães et al. (2024, *Sci. Adv.*):
+  extreme wildfire events (2019-2020 Australian megafires) can
+  temporarily override that local baseline — both kept, not smoothed.
+- **ENSO teleconnection** — Paolo et al. (2018, *Nat. Geosci.*): during
+  strong El Niño, Amundsen Sea shelves gain surface mass from snowfall
+  but lose ~5x more via basal melt — "the ocean ends up winning."
+  Ayabilah et al. (2026, *The Cryosphere*): on ENSO timescales, West
+  Antarctica *gains* mass during El Niño — the opposite short-term sign
+  of this package's own core Davison et al. 2023 long-term trend. Two
+  different timescales, not a contradiction — kept as an explicit
+  honesty-check nuance.
+
 ## Installation
 
 ```bash

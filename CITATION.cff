@@ -6,12 +6,12 @@ authors:
     given-names: Johann
     affiliation: "MOR Research Collective"
 title: "antarctic-ice-shelf-utac"
-version: "1.0.1"
-date-released: "2026-08-31"
+version: "2.0.0"
+date-released: "2026-09-03"
 url: "https://github.com/GenesisAeon/antarctic-ice-shelf-utac"
 repository-code: "https://github.com/GenesisAeon/antarctic-ice-shelf-utac"
 license: MIT
-abstract: "Real Antarctic ice shelf mass budget (71 of 162 shelves lost mass 1997-2021, 8.3 trillion tonnes total, Davison et al. 2023), a real Holocene meltwater-release feedback mechanism (Nature Geoscience 2025), and a real sign-flipped regional asymmetry under CMIP6 projections -- East Antarctica's feedback amplifies warming, West Antarctica's Amundsen/Bellingshausen sectors show cooling/suppressed warming (Muilwijk et al. 2026, The Cryosphere). Deliberately no UTAC/CREP/AFET bridge and no invented Gamma value -- see DISCLAIMER.md. GenesisAeon P120."
+abstract: "Real Antarctic ice shelf mass budget (71 of 162 shelves lost mass 1997-2021, 8.3 trillion tonnes total, Davison et al. 2023), a real Holocene meltwater-release feedback mechanism (Nature Geoscience 2025), and a real sign-flipped regional asymmetry under CMIP6 projections -- East Antarctica's feedback amplifies warming, West Antarctica's Amundsen/Bellingshausen sectors show cooling/suppressed warming (Muilwijk et al. 2026, The Cryosphere). v2.0.0 adds six more real, independently verified mechanisms: subglacial hydrology (85 newly detected active lakes, Wilson et al. 2025), the Southern Annular Mode -- where the Arctic 'vortex instability exports cold air' analogy does NOT transfer (Lim et al. 2019, Verfaillie et al. 2022), sea-ice albedo feedback (Riihela et al. 2021), seismic-ice interactions (Wiens et al. 2008), black carbon deposition (Cordero et al. 2022, Magalhaes et al. 2024 -- distinct from P105's Tibetan Plateau focus), and ENSO teleconnection (Paolo et al. 2018, Ayabilah et al. 2026 -- a real, resolved timescale tension with this package's own core finding). Deliberately no UTAC/CREP/AFET bridge and no invented Gamma value -- see DISCLAIMER.md. GenesisAeon P120."
 keywords:
   - GenesisAeon
   - P120
@@ -50,3 +50,96 @@ references:
     issue: 2
     start: 1087
     doi: "10.5194/tc-20-1087-2026"
+  - type: article
+    title: "Detection of 85 new active subglacial lakes in Antarctica from a decade of CryoSat-2 data"
+    authors:
+      - name: "Wilson, S.F."
+      - name: "Hogg, A.E."
+      - name: "Rigby, R."
+    year: 2025
+    journal: "Nature Communications"
+    volume: 16
+    start: 8311
+    doi: "10.1038/s41467-025-63773-9"
+  - type: article
+    title: "Antarctic basal environment shaped by high-pressure flow through a subglacial river system"
+    authors:
+      - name: "Dow, C.F."
+      - name: "Ross, N."
+      - name: "Jeofry, H."
+    year: 2022
+    journal: "Nature Geoscience"
+    volume: 15
+    start: 892
+    doi: "10.1038/s41561-022-01059-1"
+  - type: article
+    title: "The circum-Antarctic ice-shelves respond to a more positive Southern Annular Mode with regionally varied melting"
+    authors:
+      - name: "Verfaillie, D."
+      - name: "Pelletier, C."
+      - name: "Goosse, H."
+    year: 2022
+    journal: "Communications Earth & Environment"
+    volume: 3
+    start: 139
+    doi: "10.1038/s43247-022-00458-x"
+  - type: article
+    title: "Climate variability a key driver of recent Antarctic ice-mass change"
+    authors:
+      - name: "King, M."
+      - name: "Lyu, K."
+      - name: "Zhang, X."
+    year: 2023
+    journal: "Nature Geoscience"
+    volume: 16
+    start: 1128
+    doi: "10.1038/s41561-023-01317-w"
+  - type: article
+    title: "Recent strengthening of snow and ice albedo feedback driven by Antarctic sea-ice loss"
+    authors:
+      - name: "Riihela, A."
+      - name: "Bright, R.M."
+      - name: "Anttila, K."
+    year: 2021
+    journal: "Nature Geoscience"
+    volume: 14
+    start: 832
+    doi: "10.1038/s41561-021-00841-x"
+  - type: article
+    title: "Simultaneous teleseismic and geodetic observations of the stick-slip motion of an Antarctic ice stream"
+    authors:
+      - name: "Wiens, D.A."
+      - name: "Anandakrishnan, S."
+      - name: "Winberry, J.P."
+    year: 2008
+    journal: "Nature"
+    volume: 453
+    start: 770
+    doi: "10.1038/nature06990"
+  - type: article
+    title: "Black carbon footprint of human presence in Antarctica"
+    authors:
+      - name: "Cordero, R.R."
+    year: 2022
+    journal: "Nature Communications"
+    volume: 13
+    start: 984
+    doi: "10.1038/s41467-022-28560-w"
+  - type: article
+    title: "Seasonal changes in black carbon footprint on the Antarctic Peninsula due to rising shipborne tourism and forest fires"
+    authors:
+      - name: "Magalhaes, N."
+      - name: "Evangelista, H."
+      - name: "Goncalves Jr., S.J."
+    year: 2024
+    journal: "Science Advances"
+    volume: 10
+    issue: 42
+    doi: "10.1126/sciadv.adp1682"
+  - type: article
+    title: "Response of Pacific-sector Antarctic ice shelves to the El Nino/Southern Oscillation"
+    authors:
+      - name: "Paolo, F.S."
+    year: 2018
+    journal: "Nature Geoscience"
+    doi: "10.1038/s41561-017-0033-0"

@@ -52,6 +52,44 @@ bis minus 1,5 Grad). Das widerspricht direkt einer naiven Lesart,
 dieses Paket dokumentiert genau diesen Widerspruch, statt ihn zugunsten
 der dramatischeren Geschichte aufzulösen.
 
+## Sechs weitere reale Mechanismen (Ergänzung 2026-09-03)
+
+Nach einem Gedankenspiel von Johann, ausgelöst durch einen Korallenriff-
+Artikel, wurden sechs weitere Mechanismen unabhängig recherchiert und
+geprüft:
+
+- **Unterirdische (subglaziale) Schmelzwasserflüsse** unter dem
+  aufliegenden Landeis (nicht zu verwechseln mit dem ozeanischen
+  Abschmelzen der schwimmenden Schelfeise oben): 85 neu entdeckte aktive
+  Seen unter dem Eis (Wilson et al. 2025), ein 460 km langes
+  Hochdruck-Flusssystem (Dow et al. 2022).
+- **Das antarktische Pendant zum Polarwirbel** (Southern Annular Mode,
+  SAM): Anders als in der Arktis führt eine Wirbel-Schwächung **nicht**
+  zu Kälteausbrüchen -- 2019 gab es stattdessen heiß-trockene Bedingungen
+  in Australien, ein realer Mitverursacher der Buschbrände (Lim et al.
+  2019). SAM beeinflusst aber real und regional unterschiedlich das
+  Abschmelzen von unten (Verfaillie et al. 2022).
+- **Meereis-Albedo-Rückkopplung**: real und beziffert (Riihelä et al.
+  2021) -- aber ausdrücklich **nicht** dasselbe wie eine Albedo-
+  Rückkopplung durch freigelegtes Gestein, die für die Antarktis gezielt
+  gesucht und nicht als eigene, belegte Größe gefunden wurde.
+- **Seismisch-glaziale Verbindungen**: reale "Eisbeben" durch
+  Haftgleiten am Eisstrom-Untergrund (Wiens et al. 2008), dokumentierte
+  Schlammlawinen durch Permafrost-Auftauen seit 1956 (ohne belegten
+  Trend), und ein durch postglaziale Landhebung ausgelöstes Erdbeben
+  1998 -- wobei diese Landhebung selbst eher stabilisierend wirkt.
+- **Ruß-Ablagerung (Black Carbon)**: eine andere Region als das
+  bestehende `black-carbon-albedo-utac`-Paket (P105, Tibetisches
+  Hochland) -- keine Überschneidung. Überwiegend lokale Quellen
+  (Forschungsstationen, Schiffsverkehr), aber extreme Waldbrandereignisse
+  (australische Buschbrände 2019/20) können das zeitweise überlagern.
+- **El-Niño-Verbindung**: während starker El-Niño-Ereignisse gewinnen
+  Schelfeise zwar Masse durch mehr Schneefall, verlieren aber etwa
+  fünfmal mehr durch verstärktes Abschmelzen von unten (Paolo et al.
+  2018). Auf kurzen (El-Niño-)Zeitskalen gewinnt Westantarktis sogar
+  Masse -- das genaue Gegenteil des langfristigen Trends aus diesem
+  Paket. Kein Widerspruch, sondern zwei verschiedene Zeitskalen.
+
 ## Was wir NICHT behaupten
 
 - Dass Westantarktis gerade jetzt einen Kollaps im Stil des
